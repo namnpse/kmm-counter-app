@@ -24,7 +24,9 @@ fun App() {
         contentAlignment = Alignment.Center
     ) {
         Button(
-            onClick = {}
+            onClick = {
+                count++
+            }
         ) {
             Text("Count: $count")
         }
